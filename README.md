@@ -28,7 +28,7 @@ rm -rf ./.git
   git add .
   git commit -m "first commit"
   git pushst commit to your own git repo
-    - git remote add  origin <ssh url of your repo>
+  git remote add  origin <ssh url of your repo>
   git add .
   git commit -m "first commit"
   git push
