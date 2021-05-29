@@ -14,10 +14,6 @@
 mv node-typescript-lib-boilerplate <project folder>
 cd <project folder>
 rm -rf ./.git
-git remote add  origin <ssh url of your repo>
-git add .
-git commit -m "first commit"
-git push
 ```
 
 * Do the following changes to the package.json file
@@ -25,6 +21,18 @@ git push
   - Change ```name:```, ```description:```, ```author:``` and ```license``` to reflect your project details
   - Change the Git repository url of ```homepage:```, ```bugs:``` and ```repository``` configurations
   - Change npm registry url to reflect your npm registry under ```publishConfig``` 
+  
+* Make the firgit remote add  origin <ssh url of your repo>
+
+  ```
+  git add .
+  git commit -m "first commit"
+  git pushst commit to your own git repo
+  git remote add  origin <ssh url of your repo>
+  git add .
+  git commit -m "first commit"
+  git push
+ ```
 
 ## NPM Commands
 * ```npm test```  - Test the applcation
