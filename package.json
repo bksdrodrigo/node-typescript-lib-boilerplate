@@ -1,6 +1,6 @@
 {
   "name": "typescript-lib-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript Library Boilerplate",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -9,11 +9,11 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint && npm run format",
-    "version" : "npm test && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint && npm run format",
+    "version": "npm test && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "homepage": "https://github.com/bksdrodrigo/node-typescript-lib-boilerplate/#readme",
   "bugs": {
@@ -23,7 +23,12 @@
     "type": "git",
     "url": "git+https://github.com/bksdrodrigo/node-typescript-lib-boilerplate.git"
   },
-  "keywords": ["Typescript", "Node", "Library", "Boilerplate"],
+  "keywords": [
+    "Typescript",
+    "Node",
+    "Library",
+    "Boilerplate"
+  ],
   "author": "Suren Rodrigo",
   "license": "MIT",
   "devDependencies": {
