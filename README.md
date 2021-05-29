@@ -23,8 +23,7 @@ rm -rf ./.git
   - Change npm registry url to reflect your npm registry under ```publishConfig``` 
   
 * Make the firgit remote add  origin <ssh url of your repo>
-
-  ```
+```
   git add .
   git commit -m "first commit"
   git pushst commit to your own git repo
