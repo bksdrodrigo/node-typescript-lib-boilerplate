@@ -37,5 +37,8 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/nbe-repo-hosted/"
+  }
 }
