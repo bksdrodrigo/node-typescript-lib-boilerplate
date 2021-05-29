@@ -14,7 +14,7 @@
     "preversion": "npm run lint && npm run format",
     "version": "npm test && git add -A src",
     "postversion": "git push && git push --tags",
-    "bumpversion": "npm version patch && npm publish",
+    "bumpversion": "npm version patch && npm publish"
   },
   "homepage": "https://github.com/bksdrodrigo/node-typescript-lib-boilerplate/#readme",
   "bugs": {
