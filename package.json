@@ -1,5 +1,5 @@
 {
-  "name": "typescript-lib-boilerplate",
+  "name": "@nbe/typescript-lib-boilerplate",
   "version": "1.0.6",
   "description": "Typescript Library Boilerplate",
   "main": "lib/index.js",
